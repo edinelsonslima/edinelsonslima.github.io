@@ -4,6 +4,7 @@
 </div>
 <hr>
 <br>
+
 ## Observações
  - O projeto ainda não está finalizado
  - Apenas as paginas de Home e Sobre estão prontas (Podem haver alterações)
