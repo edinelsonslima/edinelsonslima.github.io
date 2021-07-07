@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Oswald';
+    src: url("../font/Oswald-VariableFont_wght.ttf");
+}
+
+:root {
+    --corPrimary: #800080;
+    --corPrimaryOpacity: #80008085;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+body#copo-principal {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+body img.background-image {
+    position: fixed;
+    animation: backgroundMove 20s ease-in-out infinite alternate;
+    filter: brightness(0.24);
+    width: 150%;
+    height: 150%;
+    z-index: -1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.home, .about, .projetos, .skills, .xp{
+    transition: 1s all;
+}
+
+@keyframes backgroundMove {
+    from {
+        transform: translateX(-50px)
+    }
+}
