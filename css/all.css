@@ -37,10 +37,6 @@ body img.background-image {
     display: none;
 }
 
-.home, .about, .projetos, .skills, .xp{
-    transition: 1s all;
-}
-
 @keyframes backgroundMove {
     from {
         transform: translateX(-50px)

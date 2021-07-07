@@ -162,7 +162,7 @@ main{
     max-width: 1500px;
     width: 100%;
     height: calc(100% - 100px);
-    transition: 500ms all;
+    /* transition: 500ms all; */
 }
 
 iframe.container{

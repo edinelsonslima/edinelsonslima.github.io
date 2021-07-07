@@ -4,7 +4,7 @@
 div.home {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     width: 100%;
     height: 100%;
     color: #fff;
@@ -72,6 +72,19 @@ div.titles a.button-learn:hover {
 }
 
 /* Thumb config */
+.projetos-amostra a{
+    text-decoration: none;
+    color: white;
+}
+
+.projetos-amostra a h3{
+    margin-bottom: 20px;
+}
+
+.projetos-amostra a h3 svg{
+    margin-left: 10px;
+    color: var(--corPrimary);
+}
 
 div.row-thumb {
     display: flex;
