@@ -4,8 +4,10 @@
 </div>
 <hr>
 <br>
-<br>
-<br>
+## Observações
+ - O projeto ainda não está finalizado
+ - Apenas as paginas de Home e Sobre estão prontas (Podem haver alterações)
+ - Estou pensando em migrar o projeto para ReactJs
 
 <h2 align="center">Principais tecnologias usadas</h2>
 <div align="center">
@@ -19,8 +21,6 @@
 ## Objetivos:
  Ser um local onde eu possa me apresentar e mostrar meus trabalhos.
 <hr>
-<br>
-<br>
 <br>
 
 ## Como foi desenvolvido?
