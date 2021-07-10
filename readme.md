@@ -26,3 +26,4 @@
 
 ## Como foi desenvolvido?
  Usei uma arquitetura de pasta baseada na forma como o react organiza as pastas, o index do arquivo ficou somente o html necessário, e com uma função javascript eu puxo da pasta views a tela que é para ser renderizada dentro do iframe. É uma forma diferente mais funcional de organizar tudo. 
+ 
