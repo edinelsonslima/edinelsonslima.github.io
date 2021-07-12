@@ -1,11 +1,11 @@
 @import 'css/all.css';
-
 /*Menu hamburger config  */
-input, svg#menu-toggle{
+
+input, svg#menu-toggle {
     display: none;
 }
 
-svg#arrow-left, svg#arrow-right{
+svg#arrow-left, svg#arrow-right {
     font-size: 1.4rem;
     position: absolute;
     top: 35px;
@@ -15,40 +15,36 @@ svg#arrow-left, svg#arrow-right{
     cursor: pointer;
 }
 
-svg#arrow-right{
+svg#arrow-right {
     left: 20px;
     visibility: collapse;
 }
 
-svg.arrow:hover{
+svg.arrow:hover {
     /* animation: arrowMove .5s ease-in-out infinite alternate; */
-   transform: scale(1.1);
+    transform: scale(1.1);
     filter: brightness(.7);
 }
 
-input#checkbox:checked ~ aside.sidebar{
+input#checkbox:checked~aside.sidebar {
     left: -265px;
     width: 0;
 }
 
 /* Aside config */
+
 aside.sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     height: 100vh;
     width: 100%;
     max-width: 250px;
-    
     padding: 20px 0px;
-
     background: #000000af;
     color: #fff;
-    
     position: relative;
     left: 0px;
-    
     transition: 500ms all ease-in-out;
 }
 
@@ -59,12 +55,12 @@ aside div.title-aside {
     margin: 0 25px;
 }
 
-aside div.title-aside h1.logo-title{
+aside div.title-aside h1.logo-title {
     text-transform: uppercase;
     font-size: 2.2rem;
 }
 
-aside div.title-aside h1.logo-title span{
+aside div.title-aside h1.logo-title span {
     color: var(--corPrimary)
 }
 
@@ -74,27 +70,27 @@ aside div.title-aside ul.aside-options {
     white-space: nowrap;
 }
 
-aside div.title-aside ul.aside-options li{
+aside div.title-aside ul.aside-options li {
     margin: 25px 0;
 }
 
-aside div.title-aside ul.aside-options li svg{
+aside div.title-aside ul.aside-options li svg {
     width: 20px;
     margin-right: 15px;
 }
 
-aside div.title-aside ul.aside-options li a{
+aside div.title-aside ul.aside-options li a {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
     position: relative;
 }
 
-aside div.title-aside ul.aside-options li a:hover{
+aside div.title-aside ul.aside-options li a:hover {
     color: var(--corPrimary);
 }
 
-aside div.footer-aside ul{
+aside div.footer-aside ul {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -102,15 +98,15 @@ aside div.footer-aside ul{
     padding: 0 0 0 20px;
 }
 
-aside div.footer-aside ul li a{
+aside div.footer-aside ul li a {
     text-decoration: none;
     color: #fff;
     position: relative;
 }
 
-aside div.footer-aside ul li a:hover::after{
+aside div.footer-aside ul li a:hover::after {
     position: absolute;
-    content:'';
+    content: '';
     top: 2px;
     left: -10px;
     width: 2px;
@@ -118,43 +114,43 @@ aside div.footer-aside ul li a:hover::after{
     background: var(--corPrimary);
 }
 
-div.footer-aside ul li a:hover{
+div.footer-aside ul li a:hover {
     color: var(--corPrimary);
 }
 
-aside div.footer-aside ul li.footer{
+aside div.footer-aside ul li.footer {
     color: rgb(196, 196, 196);
 }
 
 /* icones sociais config */
 
-div.sociais{
+div.sociais {
     display: flex;
     position: fixed;
     top: 0;
     right: 35px;
-    border-radius: 0 0 10px 10px ;
-    
+    border-radius: 0 0 10px 10px;
     background-color: var(--corPrimaryOpacity);
     /* opacity: .6; */
 }
 
-div.sociais a{
+div.sociais a {
     padding: 5px 15px;
 }
 
-div.sociais svg{
+div.sociais svg {
     color: #fff;
     font-size: 1.2rem;
 }
 
-div.sociais a:hover{
-    filter:brightness(.5);
-    transform:translateY(-4px);
+div.sociais a:hover {
+    filter: brightness(.5);
+    transform: translateY(-4px);
 }
 
 /* Main config */
-main{
+
+main {
     display: flex;
     margin: auto;
     margin-top: 65px;
@@ -165,7 +161,7 @@ main{
     /* transition: 500ms all; */
 }
 
-iframe.container{
+iframe.container {
     display: flex;
     width: 100%;
     height: 100%;
@@ -174,50 +170,42 @@ iframe.container{
 }
 
 /* Media Query */
-@media screen and (max-width:770px){   
-    main{
+
+@media screen and (max-width:770px) {
+    main {
         width: 100%;
     }
-
-    div.sociais{
+    div.sociais {
         top: 60px;
     }
-    
     /* Menu navbar  */
     aside.sidebar {
         display: flex;
         flex-direction: row;
-        justify-content:center;
-
+        justify-content: center;
         max-width: 100vw;
         width: 100%;
         height: 50px;
         padding: 30px 10px;
-
         background: #a176ff31;
         color: #fff;
-
         position: fixed;
         top: 0;
         transition: all 0.5s;
         z-index: 1;
     }
-
-    aside div.title-aside h1.logo-title{
+    aside div.title-aside h1.logo-title {
         margin-top: -10px;
     }
-    
     aside div.title-aside {
         flex-direction: row;
     }
-    
-    aside div.title-aside h1.logo-title{
+    aside div.title-aside h1.logo-title {
         position: absolute;
         left: 10px;
         top: 12px;
         text-transform: uppercase;
     }
-    
     aside div.title-aside ul.aside-options {
         padding: 0;
         display: flex;
@@ -225,94 +213,106 @@ iframe.container{
         right: 10px;
         top: 0px;
         max-width: 400px;
-        white-space:normal;
+        white-space: normal;
     }
-    
-    aside div.title-aside ul.aside-options li{
+    aside div.title-aside ul.aside-options li {
         text-align: center;
         margin: 5px;
     }
-
-    aside div.title-aside ul.aside-options li svg{
+    aside div.title-aside ul.aside-options li svg {
         margin: 0 auto;
     }
-    
-    aside div.footer-aside ul{
+    aside div.footer-aside ul {
         display: none;
     }
-
-    svg#arrow-left, svg#arrow-right{
+    svg#arrow-left, svg#arrow-right {
         display: none;
-     }
+    }
 }
 
-@media screen and (max-width:625px){
-    main{
+@media screen and (max-width:625px) {
+    main {
         width: 100%;
     }
 
-    svg#menu-toggle{
-        display: block;
+    #menu-toggle-label{
         position: absolute;
         right: 10px;
-        top: 15px;
-        font-size: 1.6rem;
-        cursor: pointer;
+        top: 5px;
+        z-index: 3;
     }
 
-    svg#menu-toggle:hover{
-        color: #8f8f8f;
-        transform: scale(1.2)
+    svg#arrow-left, svg#arrow-right {
+        display: none;
     }
-    
-    svg#arrow-left, svg#arrow-right{
-       display: none;
-    }
-
     aside div.title-aside ul.aside-options {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        
         position: absolute;
         right: 0px;
         top: -250px;
-        
         max-width: 100vw;
         width: 100%;
         height: 110px;
         padding: 0 0 10px 0;
-        
-        border-radius: 0 0 10px 10px ;
+        border-radius: 0 0 10px 10px;
         transition: all 0.5s;
         background-color: var(--corPrimary);
     }
-
-    aside div.title-aside ul.aside-options li a{
+    aside div.title-aside ul.aside-options li a {
         padding: 0;
         /* color: #000; */
     }
-
-    aside div.title-aside ul.aside-options li a:hover{
+    aside div.title-aside ul.aside-options li a:hover {
         color: #000;
     }
-    
-
-    input#checkbox-menu-toggle:checked svg#menu-toggle{
+    input#checkbox-menu-toggle:checked svg#menu-toggle {
         color: #000;
     }
-
-    input#checkbox-menu-toggle:checked ~ ul.aside-options{
+    input#checkbox-menu-toggle:checked~ul.aside-options {
         top: 0px;
     }
-
-    div.sociais{
+    div.sociais {
         display: none;
+    }
+    .line {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 6;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+    }
+    .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 6;
+    }
+    .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+    }
+    .opened .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+    }
+    .opened .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 6;
+    }
+    .opened .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
     }
 }
 
-
 /* keyframes config */
+
 @keyframes arrowMove {
     from {
         transform: translateX(10px)
