@@ -1,1 +1,34 @@
-@import '../../css/all.css'
+@import '../../css/all.css';
+
+div#skills{
+    padding: 10px;
+}
+
+h1.title-skill{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img.icon{
+    width: 80px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.337));
+    
+}
+
+div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+    background: #ffffffd5;
+}
+
+div.icon-content{
+    display: flex;
+    gap: 20px;
+}
