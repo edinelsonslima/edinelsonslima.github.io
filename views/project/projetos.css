@@ -1,1 +1,82 @@
-@import '../../css/all.css'
+@import '../../css/all.css';
+h1.title-project {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.card-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.projeto {
+    color: #fff;
+    padding: 10px;
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.card-project {
+    background: #ffffffd5;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #000;
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 5px 20px 5px 5px;
+}
+
+div.right {
+    padding: 5px 5px 5px 20px;
+}
+
+div.thumb {
+    min-width: 200px ;
+    height: 160px;
+}
+
+img.thumb-project {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+img.right {
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+div.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.body>h1 {
+    font-size: 25px;
+}
+
+div.card-link {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.card-link a {
+    text-decoration: none;
+}
+
+div.card-link a:hover {
+    filter: invert(.3);
+}
+
+div.card-link a:active {
+    transform: translateY(1px);
+}
