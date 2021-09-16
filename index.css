@@ -1,7 +1,7 @@
 @import 'css/all.css';
 /*Menu hamburger config  */
 
-input, svg#menu-toggle {
+input#checkbox {
     display: none;
 }
 
@@ -31,9 +31,9 @@ input#checkbox:checked~aside.sidebar {
     width: 0;
 }
 
-label#menu-toggle-label{
+/* label#menu-toggle-label {
     display: none;
-}
+} */
 
 /* Aside config */
 
@@ -125,7 +125,6 @@ div.footer-aside ul li a:hover {
 aside div.footer-aside ul li.footer {
     color: rgb(196, 196, 196);
 }
-
 
 /* icones sociais config */
 
@@ -230,7 +229,6 @@ iframe.container {
     aside div.footer-aside ul {
         display: none;
     }
-
     svg#arrow-left, svg#arrow-right {
         display: none;
     }
@@ -240,32 +238,31 @@ iframe.container {
     main {
         width: 100%;
     }
-
-    label#menu-toggle-label{
+    /* label#menu-toggle-label {
         position: absolute;
         right: 10px;
         top: 5px;
         z-index: 3;
         display: block;
-    }
-
+    } */
     svg#arrow-left, svg#arrow-right {
         display: none;
     }
     aside div.title-aside ul.aside-options {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
-        position: absolute;
         right: 0px;
-        top: -250px;
+        top: calc(100vh - 50px);
         max-width: 100vw;
         width: 100%;
-        height: 110px;
-        padding: 0 0 10px 0;
-        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 5px;
         transition: all 0.5s;
         background-color: var(--corPrimary);
+    }
+    ul.aside-options {
+        bottom: 0;
     }
     aside div.title-aside ul.aside-options li a {
         padding: 0;
@@ -274,16 +271,16 @@ iframe.container {
     aside div.title-aside ul.aside-options li a:hover {
         color: #000;
     }
-    input#checkbox-menu-toggle:checked svg#menu-toggle {
+    /* input#checkbox-menu-toggle:checked svg#menu-toggle {
         color: #000;
     }
     input#checkbox-menu-toggle:checked~ul.aside-options {
-        top: 0px;
-    }
-    div.sociais {
+        /* top: 0px;} */
+   
+        div.sociais {
         display: none;
     }
-    .line {
+    /* .line {
         fill: none;
         stroke: #fff;
         stroke-width: 6;
@@ -315,7 +312,7 @@ iframe.container {
         stroke-dasharray: 90 207;
         stroke-dashoffset: -134;
         stroke-width: 6;
-    }
+    } */
 }
 
 /* keyframes config */

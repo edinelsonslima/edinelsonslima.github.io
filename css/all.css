@@ -27,7 +27,7 @@ body#copo-principal {
 body img.background-image {
     position: fixed;
     animation: backgroundMove 20s ease-in-out infinite alternate;
-    filter: brightness(0.24);
+    filter: brightness(.19);
     width: 150%;
     height: 150%;
     z-index: -1;
