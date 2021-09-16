@@ -21,7 +21,7 @@ body#copo-principal {
     align-items: center;
     color: #fff;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 body img.background-image {
@@ -29,7 +29,7 @@ body img.background-image {
     animation: backgroundMove 20s ease-in-out infinite alternate;
     filter: brightness(.19);
     width: 150%;
-    height: 150%;
+    height: 280%;
     z-index: -1;
 }
 

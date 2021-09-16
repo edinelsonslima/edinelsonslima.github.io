@@ -19,6 +19,7 @@ div.projeto {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 div.card-project {
@@ -86,7 +87,7 @@ div.card-link a > i{
     font-size: 25px;
 }
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 450px) {
     div.card-project{
         flex-direction: column;
     }

@@ -5,7 +5,7 @@ div#skills{
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    padding-top: 40px;
+    margin-bottom: 60px;
 }
 
 h1.title-skill{
