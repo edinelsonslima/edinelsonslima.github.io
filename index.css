@@ -126,6 +126,7 @@ aside div.footer-aside ul li.footer {
     color: rgb(196, 196, 196);
 }
 
+
 /* icones sociais config */
 
 div.sociais {
@@ -229,6 +230,7 @@ iframe.container {
     aside div.footer-aside ul {
         display: none;
     }
+
     svg#arrow-left, svg#arrow-right {
         display: none;
     }
