@@ -31,6 +31,10 @@ input#checkbox:checked~aside.sidebar {
     width: 0;
 }
 
+label#menu-toggle-label{
+    display: none;
+}
+
 /* Aside config */
 
 aside.sidebar {
@@ -211,7 +215,7 @@ iframe.container {
         display: flex;
         position: absolute;
         right: 10px;
-        top: 0px;
+        top: 13px;
         max-width: 400px;
         white-space: normal;
     }
@@ -235,11 +239,12 @@ iframe.container {
         width: 100%;
     }
 
-    #menu-toggle-label{
+    label#menu-toggle-label{
         position: absolute;
         right: 10px;
         top: 5px;
         z-index: 3;
+        display: block;
     }
 
     svg#arrow-left, svg#arrow-right {

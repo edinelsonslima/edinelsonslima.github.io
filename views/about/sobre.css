@@ -1,7 +1,6 @@
 @import '../../css/all.css';
-
 .about {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 :target {
@@ -74,7 +73,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin: 30px 0;
 }
 
@@ -89,7 +87,7 @@
     position: relative;
 }
 
-.icones-sociais a::after{
+.icones-sociais a::after {
     position: absolute;
     content: "";
     width: 40px;
@@ -109,14 +107,13 @@
     animation: shake-vertical 5s cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 
-.contato a{
+.contato a {
     text-decoration: none;
     font-size: .9rem;
-
     color: #000;
 }
 
-.contato a i#arrow-mensagem{
+.contato a i#arrow-mensagem {
     margin-left: 10px;
     font-size: 1.1rem;
     color: var(--corPrimary);
@@ -132,12 +129,12 @@
     margin-top: 70px;
 }
 
-.info-github h2{
+.info-github h2 {
     text-align: center;
     font-size: 2rem;
 }
 
-.info-github h2 i{
+.info-github h2 i {
     font-size: 2.5rem;
     margin-left: 7px;
 }
@@ -168,7 +165,7 @@
     height: 100%;
 }
 
-#mensagem{
+#mensagem {
     display: flex;
     flex-direction: column;
     max-width: 650px;
@@ -178,20 +175,19 @@
     color: #000;
 }
 
-#mensagem h2{
+#mensagem h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 50px;
 }
 
-
-form{
+form {
     width: 100%;
     margin: auto;
     text-align: left;
 }
 
-form input.dados{
+form input.dados {
     width: 100%;
     height: 30px;
     padding: 20px 0 10px 0;
@@ -202,12 +198,12 @@ form input.dados{
     outline: none;
 }
 
-form input.dados::placeholder{
+form input.dados::placeholder {
     color: #8D8D8D;
     font-size: 1.2rem;
 }
 
-form textarea#menssagem{
+form textarea#menssagem {
     width: 100%;
     height: 180px;
     padding: 10px;
@@ -217,27 +213,24 @@ form textarea#menssagem{
     resize: vertical;
 }
 
-input#submit{
+input#submit {
     margin-top: 20px;
     max-width: 200px;
     width: 100%;
     padding: 3px;
-    
     border: none;
     border-radius: 5px;
-    
     background: var(--corPrimary);
     color: white;
-    
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-input#submit:hover{
+input#submit:hover {
     transform: scale(1.1);
 }
 
-input#submit:active{
+input#submit:active {
     transform: translateY(-5px);
 }
 
@@ -246,9 +239,9 @@ form small {
     margin-left: 5px;
 }
 
-@media screen and (max-width:1359px){
-    .text{
-        margin-top:0;
+@media screen and (max-width:1359px) {
+    .text {
+        margin-top: 0;
     }
 }
 

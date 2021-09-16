@@ -105,5 +105,6 @@ div.card-link a > i{
 
     div.thumb{
         margin: auto;
+        width: auto;
     }
 }
