@@ -1,6 +1,5 @@
 @import '../../css/all.css';
 /* Home config */
-
 div.home {
     display: flex;
     flex-direction: column;
