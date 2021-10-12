@@ -40,7 +40,8 @@ aside.sidebar {
     width: 100%;
     max-width: 250px;
     padding: 20px 0;
-    background: #000000af;
+    background: #0000003d;
+    box-shadow: 0 0 30px #00000057;
     color: #fff;
     position: relative;
     left: 0;

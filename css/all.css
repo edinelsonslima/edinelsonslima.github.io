@@ -21,7 +21,7 @@ body#copo-principal {
     align-items: center;
     color: #fff;
     width: 100vw;
-    background: linear-gradient(45deg, #09091b, #181847);
+    background: linear-gradient(to bottom, #0a0a1e, #131338);
 }
 
 ::-webkit-scrollbar {
@@ -39,7 +39,7 @@ div.loading {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, #09091b, #181847);
+    background: linear-gradient(to top, #09091b, #181847);
     z-index: 5;
 }
 
