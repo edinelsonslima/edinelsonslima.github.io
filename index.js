@@ -32,15 +32,3 @@ function alterarArrow() {
         arrowLeft.style.visibility = 'visible';
     }
 }
-
-// Recolher menu bar automaticamente em dispositivos moveis
-const checkboxMobile = document.querySelector('#checkbox-menu-toggle');
-
-checkboxMobile.addEventListener('change', () => {
-    let options = document.querySelectorAll('ul.aside-options li');
-    options.forEach(function (option) {
-        option.onclick = () => {
-            checkboxMobile.checked = false;
-        };
-    });
-});

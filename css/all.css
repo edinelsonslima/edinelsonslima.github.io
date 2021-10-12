@@ -19,11 +19,12 @@
     font-family: 'Oswald';
 }
 
-body#copo-principal {
+body#copo-principal{
     display: flex;
     align-items: center;
     color: #fff;
     width: 100vw;
+    height: 100vh;
     background: linear-gradient(to bottom, #0a0a1e, #131338);
 }
 
