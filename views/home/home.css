@@ -1,5 +1,6 @@
 @import '../../css/all.css';
 /* Home config */
+
 div.home {
     display: flex;
     flex-direction: column;
@@ -130,13 +131,13 @@ div.row-news a {
     flex-direction: column;
     text-decoration: none;
     color: #fff;
-    cursor: pointer;
 }
 
 div.row-news label {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 div.row-news label svg {
