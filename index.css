@@ -154,6 +154,7 @@ main {
     width: 100%;
     height: calc(100vh - 65px);
     margin-top: 70px;
+    padding: 0 10px;
     /* border: 1px solid rgb(255, 0, 0); */
     position: relative;
 }
