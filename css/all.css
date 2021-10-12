@@ -2,6 +2,9 @@
 @font-face {
     font-family: 'Oswald';
     src: url("../font/Oswald-VariableFont_wght.ttf");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
 }
 
 :root {
