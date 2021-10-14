@@ -1,4 +1,15 @@
 @import '../../css/all.css';
+div.projeto {
+    color: #fff;
+    padding: 10px;
+    padding-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
 h1.title-project {
     color: #fff;
     text-align: center;
@@ -11,16 +22,6 @@ div.card-right {
     justify-content: flex-end;
 }
 
-div.projeto {
-    color: #fff;
-    padding: 10px;
-    padding-top: 30px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 60px;
-}
 
 div.card-project {
     background: #ffffffd5;
