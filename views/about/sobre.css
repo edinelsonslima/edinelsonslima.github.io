@@ -1,24 +1,23 @@
 @import '../../css/all.css';
 .about {
-    scroll-behavior: smooth;
-}
-
-:target {
-    scroll-margin-top: .01px;
-}
-
-.about {
+    position: fixed;
+    top: 35px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     width: 100%;
     height: 100%;
-    padding: 40px 15px;
+    padding: 40px 15px 65px;
+    margin-bottom: 60px;
     color: #fff;
     background: #ffffffd5;
     overflow-y: scroll;
-    margin-bottom: 60px;
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .01px;
 }
 
 .info {
@@ -239,7 +238,13 @@ form small {
     margin-left: 5px;
 }
 
-@media screen and (max-width:1359px) {
+@media screen and (max-width:624px) {
+    .about {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1359px) {
     .text {
         margin-top: 0;
     }
